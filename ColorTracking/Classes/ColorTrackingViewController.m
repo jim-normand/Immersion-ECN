@@ -353,8 +353,17 @@ enum {
 		
 		// Grab the current position of the object from the offscreen framebuffer
 		glReadPixels(0, 0, FBO_WIDTH, FBO_HEIGHT, GL_RGBA, GL_UNSIGNED_BYTE, rawPositionPixels);
-		CGPoint currentTrackingLocation = [self centroidFromTexture:rawPositionPixels];		
-		trackingDot.position = CGPointMake(currentTrackingLocation.x * glView.bounds.size.width, currentTrackingLocation.y * glView.bounds.size.height);
+		CGPoint currentTrackingLocation = [self centroidFromTexture:rawPositionPixels];
+      
+      if (!isnan(currentTrackingLocation.x)&& !isnan(currentTrackingLocation.y)) {
+      
+         trackingDot.position = CGPointMake(currentTrackingLocation.x * glView.bounds.size.width, currentTrackingLocation.y * glView.bounds.size.height);
+         trackingDot.opacity = 1.0f;
+      }
+      else{
+         trackingDot.position = CGPointMake(0, 0);
+         trackingDot.opacity = 0.0f;
+      }
 		
 		[glView setDisplayFramebuffer];
 		glUseProgram(directDisplayProgram);
