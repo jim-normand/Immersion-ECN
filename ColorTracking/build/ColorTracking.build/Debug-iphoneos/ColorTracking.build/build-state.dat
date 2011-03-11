@@ -1,0 +1,1131 @@
+TColorTracking
+v7
+r0
+t321547924.016431
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist ColorTracking-Info.plist
+cCpResource build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh Shaders/DirectDisplayShader.fsh
+cCpResource build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh Shaders/DirectDisplayShader.vsh
+cCpResource build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh Shaders/ThresholdShader.fsh
+cCpResource build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh Shaders/ThresholdShader.vsh
+cCpResource build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh Shaders/PositionShader.fsh
+cCpResource build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh Shaders/PositionShader.vsh
+cProcessPCH /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch.gch ColorTracking_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingCamera.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking normal armv7
+cGenerateDSYMFile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+cProcessProductPackaging "/Users/jim/Library/MobileDevice/Provisioning Profiles/3961B7DE-27A8-44C5-8236-DBF565D5D8A3.mobileprovision" /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+cTouch /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+cCodeSign /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004CC110B500000000000E44B0
+t1287721141
+s935088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004CC110A700000000000001F4
+t1287721127
+s500
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004CC110220000000000030DE0
+t1287720994
+s200160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC110BE00000000000092AA
+t1287721150
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC110BE00000000000026AA
+t1287721150
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingAppDelegate.h
+c000000004D75EA620000000000000245
+t1299573346
+s581
+i<UIKit/UIKit.h>
+
+N/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingAppDelegate.m
+c000000004CC1A57E0000000000000FDE
+t1287759230
+s4062
+i"ColorTrackingAppDelegate.h"
+i"ColorTrackingViewController.h"
+
+N/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingCamera.h
+c000000004CC1A59F0000000000000370
+t1287759263
+s880
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreMedia/CoreMedia.h>
+
+N/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingCamera.m
+c000000004CC1A5A60000000000000CCF
+t1287759270
+s3279
+i"ColorTrackingCamera.h"
+
+N/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingGLView.h
+c000000004CC1A59300000000000003C1
+t1287759251
+s961
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingGLView.m
+c000000004CC1A59A00000000000014C8
+t1287759258
+s5320
+i"ColorTrackingGLView.h"
+i<OpenGLES/EAGLDrawable.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingViewController.h
+c000000004CC1A58C00000000000005F8
+t1287759244
+s1528
+i<UIKit/UIKit.h>
+i"ColorTrackingCamera.h"
+i"ColorTrackingGLView.h"
+
+N/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingViewController.m
+c000000004D78B3FC0000000000004065
+t1299756028
+s16485
+i"ColorTrackingViewController.h"
+
+N/Users/jim/Documents/Dev/ColorTracking/ColorTracking_Prefix.pch
+c000000004CAE867400000000000000C3
+t1286506100
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jim/Documents/Dev/ColorTracking/Shaders/DirectDisplayShader.fsh
+c000000004CB2852C0000000000000090
+t1286767916
+s144
+
+N/Users/jim/Documents/Dev/ColorTracking/Shaders/DirectDisplayShader.vsh
+c000000004CB2852700000000000000BA
+t1286767911
+s186
+
+N/Users/jim/Documents/Dev/ColorTracking/Shaders/PositionShader.fsh
+c000000004CBB9B930000000000000466
+t1287363475
+s1126
+
+N/Users/jim/Documents/Dev/ColorTracking/Shaders/PositionShader.vsh
+c000000004CBB9B0600000000000000CA
+t1287363334
+s202
+
+N/Users/jim/Documents/Dev/ColorTracking/Shaders/ThresholdShader.fsh
+c000000004CBB9B4F0000000000000393
+t1287363407
+s915
+
+N/Users/jim/Documents/Dev/ColorTracking/Shaders/ThresholdShader.vsh
+c000000004CBB894200000000000000CA
+t1287358786
+s202
+
+N/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+t1299752259
+s432
+
+N/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking.LinkFileList
+c000000004D78A54000000000000002C9
+t1299752256
+s713
+
+N/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o
+t1299752258
+s59124
+
+N/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o
+t1299752258
+s23532
+
+N/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o
+t1299752258
+s49892
+
+N/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o
+t1299756037
+s78144
+
+N/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o
+t1299752258
+s6692
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+t1299756038
+s510
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM
+t1299756038
+s102
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+t1299756038
+s57780
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh
+t1299752257
+s144
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh
+t1299752257
+s186
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist
+t1299752257
+s811
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PkgInfo
+t1299752257
+s8
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh
+t1299752257
+s1126
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh
+t1299752257
+s202
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist
+t1299752257
+s485
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh
+t1299752257
+s915
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh
+t1299752257
+s202
+
+N/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+t1299752259
+s7172
+
+N/Users/jim/Documents/Dev/ColorTracking/main.m
+c000000004CC1A5AF00000000000001BC
+t1287759279
+s444
+i<UIKit/UIKit.h>
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingAppDelegate.h
+c000000004D75EA620000000000000245
+t1299573346
+s581
+i<UIKit/UIKit.h>
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingAppDelegate.m
+c000000004CC1A57E0000000000000FDE
+t1287759230
+s4062
+i"ColorTrackingAppDelegate.h"
+i"ColorTrackingViewController.h"
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingCamera.h
+c000000004CC1A59F0000000000000370
+t1287759263
+s880
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreMedia/CoreMedia.h>
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingCamera.m
+c000000004CC1A5A60000000000000CCF
+t1287759270
+s3279
+i"ColorTrackingCamera.h"
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingGLView.h
+c000000004CC1A59300000000000003C1
+t1287759251
+s961
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingGLView.m
+c000000004CC1A59A00000000000014C8
+t1287759258
+s5320
+i"ColorTrackingGLView.h"
+i<OpenGLES/EAGLDrawable.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingViewController.h
+c000000004D79E10A0000000000000A13
+t1299833098
+s2579
+i<UIKit/UIKit.h>
+i"ColorTrackingCamera.h"
+i"ColorTrackingGLView.h"
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingViewController.m
+c000000004D7A371300000000000058F3
+t1299855123
+s22771
+i"ColorTrackingViewController.h"
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/Slider.h
+c000000004D78D0CB000000000000011E
+t1299763403
+s286
+i<UIKit/UIKit.h>
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/Slider.m
+c000000004D78D036000000000000060F
+t1299763254
+s1551
+i"Slider.h"
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/ColorTracking_Prefix.pch
+c000000004CAE867400000000000000C3
+t1286506100
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Shaders/DirectDisplayShader.fsh
+c000000004CB2852C0000000000000090
+t1286767916
+s144
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Shaders/DirectDisplayShader.vsh
+c000000004CB2852700000000000000BA
+t1286767911
+s186
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Shaders/PositionShader.fsh
+c000000004CBB9B930000000000000466
+t1287363475
+s1126
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Shaders/PositionShader.vsh
+c000000004CBB9B0600000000000000CA
+t1287363334
+s202
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Shaders/ThresholdShader.fsh
+c000000004D7A358500000000000003DB
+t1299854725
+s987
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Shaders/ThresholdShader.vsh
+c000000004CBB894200000000000000CA
+t1287358786
+s202
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+t1299752259
+s432
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking.LinkFileList
+c000000004D78CA23000000000000030F
+t1299761699
+s783
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o
+t1299833273
+s59868
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o
+t1299761700
+s23560
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o
+t1299761700
+s49920
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o
+t1299855123
+s101004
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/Slider.o
+t2
+s0
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o
+t1299761700
+s6720
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+t1299855124
+s510
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM
+t1299855123
+s102
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+t1299855123
+s69988
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh
+t1299752257
+s144
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh
+t1299752257
+s186
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist
+t1299752257
+s811
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PkgInfo
+t1299752257
+s8
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh
+t1299752257
+s1126
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh
+t1299752257
+s202
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist
+t1299752257
+s485
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh
+t1299854725
+s987
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh
+t1299752257
+s202
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+t1299752259
+s7172
+
+N/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/main.m
+c000000004CC1A5AF00000000000001BC
+t1287759279
+s444
+i<UIKit/UIKit.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.h
+c000000004D75EA620000000000000245
+t1299573346
+s581
+i<UIKit/UIKit.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m
+c000000004CC1A57E0000000000000FDE
+t1287759230
+s4062
+i"ColorTrackingAppDelegate.h"
+i"ColorTrackingViewController.h"
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h
+c000000004CC1A59F0000000000000370
+t1287759263
+s880
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreMedia/CoreMedia.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m
+c000000004CC1A5A60000000000000CCF
+t1287759270
+s3279
+i"ColorTrackingCamera.h"
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.h
+c000000004CC1A59300000000000003C1
+t1287759251
+s961
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m
+c000000004CC1A59A00000000000014C8
+t1287759258
+s5320
+i"ColorTrackingGLView.h"
+i<OpenGLES/EAGLDrawable.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h
+c000000004CC1A58C00000000000005F8
+t1287759244
+s1528
+i<UIKit/UIKit.h>
+i"ColorTrackingCamera.h"
+i"ColorTrackingGLView.h"
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m
+c000000004CC1A5890000000000003EFB
+t1287759241
+s16123
+i"ColorTrackingViewController.h"
+
+N/Users/jim/Downloads/ColorTracking/ColorTracking_Prefix.pch
+c000000004CAE867400000000000000C3
+t1286506100
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.fsh
+c000000004CB2852C0000000000000090
+t1286767916
+s144
+
+N/Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.vsh
+c000000004CB2852700000000000000BA
+t1286767911
+s186
+
+N/Users/jim/Downloads/ColorTracking/Shaders/PositionShader.fsh
+c000000004CBB9B930000000000000466
+t1287363475
+s1126
+
+N/Users/jim/Downloads/ColorTracking/Shaders/PositionShader.vsh
+c000000004CBB9B0600000000000000CA
+t1287363334
+s202
+
+N/Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.fsh
+c000000004CBB9B4F0000000000000393
+t1287363407
+s915
+
+N/Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.vsh
+c000000004CBB894200000000000000CA
+t1287358786
+s202
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTracking
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTracking.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTrackingAppDelegate.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTrackingCamera.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTrackingGLView.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTrackingViewController.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PkgInfo
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/main.m
+c000000004CC1A5AF00000000000001BC
+t1287759279
+s444
+i<UIKit/UIKit.h>
+
+N/Users/jim/Library/MobileDevice/Provisioning Profiles/3961B7DE-27A8-44C5-8236-DBF565D5D8A3.mobileprovision
+c000000004D78A5240000000000001C04
+t1299752228
+s7172
+
+N/var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-avvkvyqhhbjypweputmobklgvgob/ColorTracking_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch.gch
+t1299761700
+s10446552
+
+N/var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch.gch
+t1299752258
+s10446552
+
+N/var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-ffojqvswrslehnbeijmnnicrmxdq/ColorTracking_Prefix.pch.gch
+t2
+s0
+
+NColorTracking-Info.plist
+c000000004CB31D4F0000000000000387
+t1286806863
+s903
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321547923#321547923#0(0"0(0#1#0"8616898816#0"0#
+
+CCodeSign /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+s321448838.155456
+e321448838.387634
+r1
+xCodeSign
+x/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/ColorTracking.app321448838#321448838#0(0"0(0#0#77"/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app8626453536#682"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Guillaume Moreau (WN925WQ9A2)" --resource-rules=/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist --entitlements /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCodeSign /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+s321547923.894737
+e321547924.016385
+r1
+xCodeSign
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+lSLF07#2@47"CodeSign build/Debug-iphoneos/ColorTracking.app321547923#321547924#0(0"0(0#0#91"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app8626523328#738"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Guillaume Moreau (WN925WQ9A2)" --resource-rules=/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist --entitlements /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTrackingAppDelegate.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTrackingCamera.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTrackingGLView.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTrackingViewController.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/main.o /Users/jim/Downloads/ColorTracking/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321445058.389823
+e321445058.585874
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o
+x/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingAppDelegate.m321445058#321445058#0(0"0(0#0#73"/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingAppDelegate.m8633260896#1998"    cd /Users/jim/Documents/Dev/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingAppDelegate.m -o /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321526073.042574
+e321526073.157488
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingAppDelegate.m321526073#321526073#0(0"0(0#0#87"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingAppDelegate.m8642562976#2152"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingAppDelegate.m -o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingCamera.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321445058.546996
+e321445058.634438
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o
+x/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingCamera.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingCamera.m321445058#321445058#0(0"0(0#0#68"/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingCamera.m8657892992#1988"    cd /Users/jim/Documents/Dev/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingCamera.m -o /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingCamera.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321454500.287053
+e321454500.402178
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingCamera.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingCamera.m321454500#321454500#0(0"0(0#0#82"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingCamera.m8672888800#2142"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingCamera.m -o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321445058.391753
+e321445058.548077
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o
+x/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingGLView.m321445058#321445058#0(0"0(0#0#68"/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingGLView.m8665611040#1988"    cd /Users/jim/Documents/Dev/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingGLView.m -o /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321454500.222611
+e321454500.350405
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingGLView.m321454500#321454500#0(0"0(0#0#82"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingGLView.m8674528064#2142"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingGLView.m -o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321448837.729060
+e321448837.890489
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o
+x/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingViewController.m321448837#321448837#0(0"0(0#0#76"/Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingViewController.m8626263040#2004"    cd /Users/jim/Documents/Dev/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/ColorTracking/Classes/ColorTrackingViewController.m -o /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321547923.505836
+e321547923.851423
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingViewController.m321547923#321547923#0(0"0(0#0#90"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingViewController.m8608506592#2158"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/ColorTrackingViewController.m -o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/Slider.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Classes/Slider.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o /Users/jim/Documents/Dev/ColorTracking/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321445058.388868
+e321445058.546761
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o
+x/Users/jim/Documents/Dev/ColorTracking/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/jim/Documents/Dev/ColorTracking/main.m321445058#321445058#0(0"0(0#0#45"/Users/jim/Documents/Dev/ColorTracking/main.m8646544064#1950"    cd /Users/jim/Documents/Dev/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/ColorTracking/main.m -o /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321454500.219303
+e321454500.286919
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/main.m321454500#321454500#0(0"0(0#0#59"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/main.m8665556544#2104"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch -c /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/main.m -o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o /Users/jim/Downloads/ColorTracking/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCpResource build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh Shaders/DirectDisplayShader.fsh
+s321445057.022747
+e321445057.044728
+r1
+xCpResource
+xbuild/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh
+xShaders/DirectDisplayShader.fsh
+lSLF07#2@36"Copy Shaders/DirectDisplayShader.fsh321445057#321445057#0(0"0(0#0#70"/Users/jim/Documents/Dev/ColorTracking/Shaders/DirectDisplayShader.fsh8650539360#481"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Documents/Dev/ColorTracking/Shaders/DirectDisplayShader.fsh /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCpResource build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh Shaders/DirectDisplayShader.vsh
+s321445057.023301
+e321445057.045287
+r1
+xCpResource
+xbuild/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh
+xShaders/DirectDisplayShader.vsh
+lSLF07#2@36"Copy Shaders/DirectDisplayShader.vsh321445057#321445057#0(0"0(0#0#70"/Users/jim/Documents/Dev/ColorTracking/Shaders/DirectDisplayShader.vsh8649094432#481"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Documents/Dev/ColorTracking/Shaders/DirectDisplayShader.vsh /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCpResource build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh Shaders/PositionShader.fsh
+s321445057.025298
+e321445057.045120
+r1
+xCpResource
+xbuild/Debug-iphoneos/ColorTracking.app/PositionShader.fsh
+xShaders/PositionShader.fsh
+lSLF07#2@31"Copy Shaders/PositionShader.fsh321445057#321445057#0(0"0(0#0#65"/Users/jim/Documents/Dev/ColorTracking/Shaders/PositionShader.fsh8632800448#476"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Documents/Dev/ColorTracking/Shaders/PositionShader.fsh /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCpResource build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh Shaders/PositionShader.vsh
+s321445057.026105
+e321445057.045433
+r1
+xCpResource
+xbuild/Debug-iphoneos/ColorTracking.app/PositionShader.vsh
+xShaders/PositionShader.vsh
+lSLF07#2@31"Copy Shaders/PositionShader.vsh321445057#321445057#0(0"0(0#0#65"/Users/jim/Documents/Dev/ColorTracking/Shaders/PositionShader.vsh8629216768#476"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Documents/Dev/ColorTracking/Shaders/PositionShader.vsh /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCpResource build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s321445056.976648
+e321445057.022667
+r1
+xCpResource
+xbuild/Debug-iphoneos/ColorTracking.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321445056#321445057#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8658479488#500"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCpResource build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh Shaders/ThresholdShader.fsh
+s321547525.118548
+e321547525.122998
+r1
+xCpResource
+xbuild/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh
+xShaders/ThresholdShader.fsh
+lSLF07#2@32"Copy Shaders/ThresholdShader.fsh321547525#321547525#0(0"0(0#0#80"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Shaders/ThresholdShader.fsh8627539968#519"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/Shaders/ThresholdShader.fsh /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCpResource build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh Shaders/ThresholdShader.vsh
+s321445057.024498
+e321445057.045020
+r1
+xCpResource
+xbuild/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh
+xShaders/ThresholdShader.vsh
+lSLF07#2@32"Copy Shaders/ThresholdShader.vsh321445057#321445057#0(0"0(0#0#66"/Users/jim/Documents/Dev/ColorTracking/Shaders/ThresholdShader.vsh8636556864#477"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Documents/Dev/ColorTracking/Shaders/ThresholdShader.vsh /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CCreateUniversalBinary /Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+s321448838.101199
+e321448838.153336
+r1
+xGenerateDSYMFile
+x/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM
+x/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/ColorTracking.app.dSYM build/Debug-iphoneos/ColorTracking.app/ColorTracking321448838#321448838#0(0"0(0#0#91"/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking8634737440#380"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking -o /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM0#
+
+CGenerateDSYMFile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+s321547923.877109
+e321547923.892748
+r1
+xGenerateDSYMFile
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/ColorTracking.app.dSYM build/Debug-iphoneos/ColorTracking.app/ColorTracking321547923#321547923#0(0"0(0#0#105"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking8626777632#422"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking -o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM0#
+
+CGenerateDSYMFile /Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM /Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+r0
+
+CLd /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking normal armv7
+s321448837.890569
+e321448838.101097
+r1
+xLd
+x/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+xnormal
+xarmv7
+lSLF07#2@96"Link /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking321448837#321448838#0(0"0(0#0#0"8661392064#1175"    cd /Users/jim/Documents/Dev/ColorTracking    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos -L/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework -F/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -filelist /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework UIKit -framework QuartzCore -framework OpenGLES -framework Foundation -framework CoreVideo -framework CoreMedia -framework CoreGraphics -framework AVFoundation -o /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking0#
+
+CLd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking normal armv7
+s321547923.851500
+e321547923.877022
+r1
+xLd
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+xnormal
+xarmv7
+lSLF07#2@110"Link /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking321547923#321547923#0(0"0(0#0#0"8626971488#1245"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos -L/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework -F/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -filelist /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework UIKit -framework QuartzCore -framework OpenGLES -framework Foundation -framework CoreVideo -framework CoreMedia -framework CoreGraphics -framework AVFoundation -o /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking0#
+
+CLd /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv6/ColorTracking normal armv6
+r0
+
+CLd /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking normal armv7
+r0
+
+CLd /Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking normal armv6
+r0
+
+CLd /Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking normal armv7
+r0
+
+CProcessInfoPlistFile /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist ColorTracking-Info.plist
+s321445057.002100
+e321445057.013663
+r1
+xProcessInfoPlistFile
+x/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist
+xColorTracking-Info.plist
+lSLF07#2@32"Process ColorTracking-Info.plist321445057#321445057#0(0"0(0#0#63"/Users/jim/Documents/Dev/ColorTracking/ColorTracking-Info.plist8655079904#586"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ColorTracking-Info.plist -genpkginfo /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist -o /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist ColorTracking-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist ColorTracking-Info.plist
+r0
+
+CProcessPCH /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-avvkvyqhhbjypweputmobklgvgob/ColorTracking_Prefix.pch.gch ColorTracking_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch.gch ColorTracking_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321454499.683206
+e321454500.219186
+r1
+xProcessPCH
+x/var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch.gch
+xColorTracking_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile ColorTracking_Prefix.pch321454499#321454500#0(0"0(0#0#77"/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/ColorTracking_Prefix.pch8677762944#1982"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -c /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/ColorTracking_Prefix.pch -o /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-bekwkulipsznpacsxcunquoethxm/ColorTracking_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch.gch ColorTracking_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s321445057.045513
+e321445058.388746
+r1
+xProcessPCH
+x/var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch.gch
+xColorTracking_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile ColorTracking_Prefix.pch321445057#321445058#0(0"0(0#0#63"/Users/jim/Documents/Dev/ColorTracking/ColorTracking_Prefix.pch8627408032#1842"    cd /Users/jim/Documents/Dev/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/include -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -c /Users/jim/Documents/Dev/ColorTracking/ColorTracking_Prefix.pch -o /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-brlmpmdqnmvrtwakwtdwbwmlblyd/ColorTracking_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-ffojqvswrslehnbeijmnnicrmxdq/ColorTracking_Prefix.pch.gch ColorTracking_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/jim/Library/MobileDevice/Provisioning Profiles/3961B7DE-27A8-44C5-8236-DBF565D5D8A3.mobileprovision" /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+s321445059.600461
+e321445059.612017
+r1
+xProcessProductPackaging
+x/Users/jim/Library/MobileDevice/Provisioning Profiles/3961B7DE-27A8-44C5-8236-DBF565D5D8A3.mobileprovision
+x/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+lSLF07#2@196"ProcessProductPackaging "/Users/jim/Library/MobileDevice/Provisioning Profiles/3961B7DE-27A8-44C5-8236-DBF565D5D8A3.mobileprovision" build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision321445059#321445059#0(0"0(0#0#102"/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision8653619008#427"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jim/Library/MobileDevice/Provisioning Profiles/3961B7DE-27A8-44C5-8236-DBF565D5D8A3.mobileprovision" -o /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/jim/Library/MobileDevice/Provisioning Profiles/3961B7DE-27A8-44C5-8236-DBF565D5D8A3.mobileprovision" /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+s321445059.645944
+e321445059.657667
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent321445059#321445059#0(0"0(0#0#119"/Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent8644981920#450"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/jim/Documents/Dev/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+r0
+
+CTouch /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+s321448838.153503
+e321448838.155324
+r1
+xTouch
+x/Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+lSLF07#2@83"Touch /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app321448838#321448838#0(0"0(0#0#0"8632151168#270"    cd /Users/jim/Documents/Dev/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jim/Documents/Dev/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CTouch /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+s321547923.892868
+e321547923.894641
+r1
+xTouch
+x/Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+lSLF07#2@97"Touch /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app321547923#321547923#0(0"0(0#0#0"8626560544#298"    cd /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jim/Documents/Dev/Immersion-ECN/ColorTracking/build/Debug-iphoneos/ColorTracking.app0#
+
+CTouch /Users/jim/Downloads/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+r0
+

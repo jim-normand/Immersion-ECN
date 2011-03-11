@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>DirectDisplayShader.fsh</key>
+		<data>
+		/mbcAoskH3Ojh4wJ7gCmXu0Egz4=
+		</data>
+		<key>DirectDisplayShader.vsh</key>
+		<data>
+		fiOOH8gi0gxNRgY22vciuYcd4QM=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PositionShader.fsh</key>
+		<data>
+		9zNWDvufIfpVoYlFSGWuaMbAHAQ=
+		</data>
+		<key>PositionShader.vsh</key>
+		<data>
+		gh8nwjgLXWpq/0b354w7l2c3cm0=
+		</data>
+		<key>ThresholdShader.fsh</key>
+		<data>
+		+kcHVYGMUSnLFRgZ1U4X/+vu2k4=
+		</data>
+		<key>ThresholdShader.vsh</key>
+		<data>
+		gh8nwjgLXWpq/0b354w7l2c3cm0=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		Oap1avK8eq+WbNPmc2x5KDVxF0o=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

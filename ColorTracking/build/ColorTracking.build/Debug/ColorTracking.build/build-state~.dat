@@ -1,0 +1,104 @@
+TColorTracking
+v7
+r1
+cCheck dependencies
+
+N/Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.fsh
+c000000004CB2852C0000000000000090
+t1286767916
+s144
+
+N/Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.vsh
+c000000004CB2852700000000000000BA
+t1286767911
+s186
+
+N/Users/jim/Downloads/ColorTracking/Shaders/PositionShader.fsh
+c000000004CBB9B930000000000000466
+t1287363475
+s1126
+
+N/Users/jim/Downloads/ColorTracking/Shaders/PositionShader.vsh
+c000000004CBB9B0600000000000000CA
+t1287363334
+s202
+
+N/Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.fsh
+c000000004CBB9B4F0000000000000393
+t1287363407
+s915
+
+N/Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.vsh
+c000000004CBB894200000000000000CA
+t1287358786
+s202
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/Info.plist
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/Resources/DirectDisplayShader.fsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/Resources/DirectDisplayShader.vsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/Resources/PositionShader.fsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/Resources/PositionShader.vsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/Resources/ThresholdShader.fsh
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/Resources/ThresholdShader.vsh
+t2
+s0
+
+NColorTracking-Info.plist
+c000000004CB31D4F0000000000000387
+t1286806863
+s903
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321265862#321265862#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.1'1(4@58"error: There is no SDK with the name or path 'iphoneos4.1'321265862#18446744073709551615#0#0(1@0"0(0#1#0"8632032640#0"0#
+
+CCpResource build/Debug/ColorTracking.app/Contents/Resources/DirectDisplayShader.fsh Shaders/DirectDisplayShader.fsh
+r0
+
+CCpResource build/Debug/ColorTracking.app/Contents/Resources/DirectDisplayShader.vsh Shaders/DirectDisplayShader.vsh
+r0
+
+CCpResource build/Debug/ColorTracking.app/Contents/Resources/PositionShader.fsh Shaders/PositionShader.fsh
+r0
+
+CCpResource build/Debug/ColorTracking.app/Contents/Resources/PositionShader.vsh Shaders/PositionShader.vsh
+r0
+
+CCpResource build/Debug/ColorTracking.app/Contents/Resources/ThresholdShader.fsh Shaders/ThresholdShader.fsh
+r0
+
+CCpResource build/Debug/ColorTracking.app/Contents/Resources/ThresholdShader.vsh Shaders/ThresholdShader.vsh
+r0
+
+CProcessInfoPlistFile /Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app/Contents/Info.plist ColorTracking-Info.plist
+r0
+
+CTouch /Users/jim/Downloads/ColorTracking/build/Debug/ColorTracking.app
+r0
+

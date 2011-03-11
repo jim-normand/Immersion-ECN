@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ColorTrackingAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {975, 453}}";
+			sepNavSelRange = "{558, 14}";
+			sepNavVisRange = "{0, 581}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ColorTrackingAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1703}}";
+			sepNavSelRange = "{1968, 0}";
+			sepNavVisRange = "{548, 2744}";
+			sepNavWindowFrame = "{{1728, -283}, {1096, 1080}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ColorTracking */ = {
+		activeExec = 0;
+		executables = (
+			381ECEE013261F6A008C10A4 /* ColorTracking */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ColorTrackingViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1009, 1144}}";
+			sepNavSelRange = "{783, 0}";
+			sepNavVisRange = "{887, 1685}";
+			sepNavWindowFrame = "{{1905, -248}, {1068, 784}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ColorTrackingViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1839, 8398}}";
+			sepNavSelRange = "{8368, 0}";
+			sepNavVisRange = "{7393, 2771}";
+			sepNavWindowFrame = "{{1295, -280}, {1096, 1080}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 381ECEE013261F6A008C10A4 /* ColorTracking */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ColorTracking */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ColorTracking */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 381ECEF213261F71008C10A4 /* Code sense */;
+		executables = (
+			381ECEE013261F6A008C10A4 /* ColorTracking */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1437,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					793,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321540766;
+			PBXWorkspaceStateSaveDate = 321540766;
+		};
+		perUserProjectItems = {
+			381ECFD813262EC2008C10A4 /* PBXTextBookmark */ = 381ECFD813262EC2008C10A4 /* PBXTextBookmark */;
+			381ECFDB13262EC2008C10A4 /* PBXTextBookmark */ = 381ECFDB13262EC2008C10A4 /* PBXTextBookmark */;
+			381EDB9413290248008C10A4 /* PBXTextBookmark */ = 381EDB9413290248008C10A4 /* PBXTextBookmark */;
+			381EDC2C13291207008C10A4 /* PBXTextBookmark */ = 381EDC2C13291207008C10A4 /* PBXTextBookmark */;
+			381EDC2D13291207008C10A4 /* PBXTextBookmark */ = 381EDC2D13291207008C10A4 /* PBXTextBookmark */;
+			381EDC3313291207008C10A4 /* PBXTextBookmark */ = 381EDC3313291207008C10A4 /* PBXTextBookmark */;
+			381EDC3413291207008C10A4 /* PBXTextBookmark */ = 381EDC3413291207008C10A4 /* PBXTextBookmark */;
+			381EDC521329168D008C10A4 /* PBXTextBookmark */ = 381EDC521329168D008C10A4 /* PBXTextBookmark */;
+			381EDC531329168D008C10A4 /* PBXTextBookmark */ = 381EDC531329168D008C10A4 /* PBXTextBookmark */;
+			381EDC551329168D008C10A4 /* PBXTextBookmark */ = 381EDC551329168D008C10A4 /* PBXTextBookmark */;
+			381EDC561329168D008C10A4 /* PBXTextBookmark */ = 381EDC561329168D008C10A4 /* PBXTextBookmark */;
+			381EDC67132917DA008C10A4 /* PBXTextBookmark */ = 381EDC67132917DA008C10A4 /* PBXTextBookmark */;
+			381EDD05132920AB008C10A4 /* PBXTextBookmark */ = 381EDD05132920AB008C10A4 /* PBXTextBookmark */;
+			381EDD06132920AB008C10A4 /* PBXTextBookmark */ = 381EDD06132920AB008C10A4 /* PBXTextBookmark */;
+			381EDD07132920AB008C10A4 /* PBXTextBookmark */ = 381EDD07132920AB008C10A4 /* PBXTextBookmark */;
+			381EDD09132920AB008C10A4 /* PBXTextBookmark */ = 381EDD09132920AB008C10A4 /* PBXTextBookmark */;
+			381EDDEE13293B08008C10A4 /* PBXTextBookmark */ = 381EDDEE13293B08008C10A4 /* PBXTextBookmark */;
+			381EDDF613293B97008C10A4 /* PBXTextBookmark */ = 381EDDF613293B97008C10A4 /* PBXTextBookmark */;
+			381EDDF813293B97008C10A4 /* PBXTextBookmark */ = 381EDDF813293B97008C10A4 /* PBXTextBookmark */;
+			381EDDFB13293B97008C10A4 /* PBXTextBookmark */ = 381EDDFB13293B97008C10A4 /* PBXTextBookmark */;
+			3855F7FC132A6C6000517796 /* PBXTextBookmark */ = 3855F7FC132A6C6000517796 /* PBXTextBookmark */;
+			3855F809132A6D0C00517796 /* PBXTextBookmark */ = 3855F809132A6D0C00517796 /* PBXTextBookmark */;
+			3855F815132A6EAB00517796 /* PBXTextBookmark */ = 3855F815132A6EAB00517796 /* PBXTextBookmark */;
+			3855F816132A6EAB00517796 /* PBXTextBookmark */ = 3855F816132A6EAB00517796 /* PBXTextBookmark */;
+			3855F817132A6EAB00517796 /* PBXTextBookmark */ = 3855F817132A6EAB00517796 /* PBXTextBookmark */;
+			3855F818132A6EAB00517796 /* PBXTextBookmark */ = 3855F818132A6EAB00517796 /* PBXTextBookmark */;
+			388E9EEE132A197B0025B0B9 /* PBXTextBookmark */ = 388E9EEE132A197B0025B0B9 /* PBXTextBookmark */;
+			388E9F3F132A240C0025B0B9 /* PBXTextBookmark */ = 388E9F3F132A240C0025B0B9 /* PBXTextBookmark */;
+			388E9F43132A240C0025B0B9 /* PBXTextBookmark */ = 388E9F43132A240C0025B0B9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 381ECEF113261F71008C10A4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 457}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* ColorTracking_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 481}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 195}";
+		};
+	};
+	381ECEE013261F6A008C10A4 /* ColorTracking */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ColorTracking;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	381ECEF113261F71008C10A4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	381ECEF213261F71008C10A4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	381ECFD813262EC2008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381ECFD913262EC2008C10A4 /* AVFoundation.h */;
+		name = "AVFoundation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 497;
+	};
+	381ECFD913262EC2008C10A4 /* AVFoundation.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AVFoundation.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h;
+		sourceTree = "<absolute>";
+	};
+	381ECFDB13262EC2008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ColorTracking_Prefix.pch */;
+		name = "ColorTracking_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	381EDB9413290248008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 12";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	381EDB9713290248008C10A4 /* UISlider.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UISlider.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UISlider.h;
+		sourceTree = "<absolute>";
+	};
+	381EDBED13290549008C10A4 /* Texture2D.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Texture2D.h;
+		path = /Users/jim/Downloads/Texture2D.h;
+		sourceTree = "<absolute>";
+	};
+	381EDC2C13291207008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDBED13290549008C10A4 /* Texture2D.h */;
+		name = "Texture2D.h: 98";
+		rLen = 9;
+		rLoc = 4344;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 3990;
+	};
+	381EDC2D13291207008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC3F813A1262C8E100987A60 /* PositionShader.fsh */;
+		name = "PositionShader.fsh: 7";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 0;
+	};
+	381EDC3313291207008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDB9713290248008C10A4 /* UISlider.h */;
+		name = "UISlider.h: 15";
+		rLen = 9;
+		rLoc = 302;
+		rType = 0;
+		vrLen = 986;
+		vrLoc = 191;
+	};
+	381EDC3413291207008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDC3513291207008C10A4 /* UIControl.h */;
+		name = "UIControl.h: 67";
+		rLen = 6;
+		rLoc = 2658;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 2267;
+	};
+	381EDC3513291207008C10A4 /* UIControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIControl.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h;
+		sourceTree = "<absolute>";
+	};
+	381EDC3713291207008C10A4 /* UIView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIView.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
+		sourceTree = "<absolute>";
+	};
+	381EDC521329168D008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC3F7989125EC40400987A60 /* ColorTrackingGLView.m */;
+		name = "ColorTrackingGLView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 4642;
+	};
+	381EDC531329168D008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC3F7988125EC40400987A60 /* ColorTrackingGLView.h */;
+		name = "ColorTrackingGLView.h: 12";
+		rLen = 0;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 205;
+	};
+	381EDC551329168D008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC3F7BCD1261013400987A60 /* ColorTrackingCamera.m */;
+		name = "ColorTrackingCamera.m: 103";
+		rLen = 0;
+		rLoc = 2808;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 2330;
+	};
+	381EDC561329168D008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC3F7BCC1261013400987A60 /* ColorTrackingCamera.h */;
+		name = "ColorTrackingCamera.h: 11";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 0;
+	};
+	381EDC5F132916CB008C10A4 /* SliderValueViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SliderValueViewController.m;
+		path = "/Users/jim/Downloads/elc-ELCSlider-2862d66/ELCSlider/SliderValueViewController.m";
+		sourceTree = "<absolute>";
+	};
+	381EDC67132917DA008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDC5F132916CB008C10A4 /* SliderValueViewController.m */;
+		name = "SliderValueViewController.m: 9";
+		rLen = 0;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 0;
+	};
+	381EDC6C132917DA008C10A4 /* blink.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = blink.c;
+		path = "/Users/jim/Downloads/blinkdetect-src/blink.c";
+		sourceTree = "<absolute>";
+	};
+	381EDD05132920AB008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDC6C132917DA008C10A4 /* blink.c */;
+		name = "blink.c: 103";
+		rLen = 5;
+		rLoc = 2824;
+		rType = 0;
+		vrLen = 754;
+		vrLoc = 2416;
+	};
+	381EDD06132920AB008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ColorTrackingAppDelegate.m */;
+		name = "ColorTrackingAppDelegate.m: 104";
+		rLen = 1;
+		rLoc = 3499;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 3214;
+	};
+	381EDD07132920AB008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ColorTrackingAppDelegate.h */;
+		name = "ColorTrackingAppDelegate.h: 21";
+		rLen = 14;
+		rLoc = 558;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 0;
+	};
+	381EDD09132920AB008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDD0A132920AB008C10A4 /* UIBarButtonItem.h */;
+		name = "UIBarButtonItem.h: 54";
+		rLen = 0;
+		rLoc = 1484;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 1197;
+	};
+	381EDD0A132920AB008C10A4 /* UIBarButtonItem.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIBarButtonItem.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIBarButtonItem.h;
+		sourceTree = "<absolute>";
+	};
+	381EDDEE13293B08008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDDEF13293B08008C10A4 /* UISegmentedControl.h */;
+		name = "UISegmentedControl.h: 14";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 2221;
+		vrLoc = 1891;
+	};
+	381EDDEF13293B08008C10A4 /* UISegmentedControl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UISegmentedControl.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UISegmentedControl.h;
+		sourceTree = "<absolute>";
+	};
+	381EDDF613293B97008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDDF713293B97008C10A4 /* UILabel.h */;
+		name = "UILabel.h: 44";
+		rLen = 79;
+		rLoc = 1087;
+		rType = 0;
+		vrLen = 1928;
+		vrLoc = 600;
+	};
+	381EDDF713293B97008C10A4 /* UILabel.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UILabel.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UILabel.h;
+		sourceTree = "<absolute>";
+	};
+	381EDDF813293B97008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDDF913293B97008C10A4 /* UITableViewCell.h */;
+		name = "UITableViewCell.h: 57";
+		rLen = 6;
+		rLoc = 2343;
+		rType = 0;
+		vrLen = 1368;
+		vrLoc = 1533;
+	};
+	381EDDF913293B97008C10A4 /* UITableViewCell.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UITableViewCell.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h;
+		sourceTree = "<absolute>";
+	};
+	381EDDFB13293B97008C10A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDDFC13293B97008C10A4 /* UIResponder.h */;
+		name = "UIResponder.h: 12";
+		rLen = 63;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 1141;
+		vrLoc = 0;
+	};
+	381EDDFC13293B97008C10A4 /* UIResponder.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIResponder.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h;
+		sourceTree = "<absolute>";
+	};
+	3855F7FC132A6C6000517796 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ColorTrackingViewController.h */;
+		name = "ColorTrackingViewController.h: 59";
+		rLen = 0;
+		rLoc = 1718;
+		rType = 0;
+		vrLen = 1845;
+		vrLoc = 734;
+	};
+	3855F809132A6D0C00517796 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC3F80D91262BD5400987A60 /* ThresholdShader.vsh */;
+		name = "ThresholdShader.vsh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 202;
+		vrLoc = 0;
+	};
+	3855F815132A6EAB00517796 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC3F80D81262BD5400987A60 /* ThresholdShader.fsh */;
+		name = "ThresholdShader.fsh: 40";
+		rLen = 0;
+		rLoc = 985;
+		rType = 0;
+		vrLen = 987;
+		vrLoc = 0;
+	};
+	3855F816132A6EAB00517796 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ColorTrackingViewController.m */;
+		name = "ColorTrackingViewController.m: 214";
+		rLen = 0;
+		rLoc = 8141;
+		rType = 0;
+		vrLen = 2107;
+		vrLoc = 11377;
+	};
+	3855F817132A6EAB00517796 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ColorTrackingViewController.m */;
+		name = "ColorTrackingViewController.m: 220";
+		rLen = 0;
+		rLoc = 8368;
+		rType = 0;
+		vrLen = 2771;
+		vrLoc = 7393;
+	};
+	3855F818132A6EAB00517796 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ColorTrackingViewController.h */;
+		name = "ColorTrackingViewController.h: 30";
+		rLen = 0;
+		rLoc = 783;
+		rType = 0;
+		vrLen = 1685;
+		vrLoc = 887;
+	};
+	388E9EEE132A197B0025B0B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 381EDC3713291207008C10A4 /* UIView.h */;
+		name = "UIView.h: 180";
+		rLen = 35;
+		rLoc = 8443;
+		rType = 0;
+		vrLen = 2703;
+		vrLoc = 6819;
+	};
+	388E9F3F132A240C0025B0B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 388E9F40132A240C0025B0B9 /* NSString.h */;
+		name = "NSString.h: 281";
+		rLen = 70;
+		rLoc = 17704;
+		rType = 0;
+		vrLen = 4662;
+		vrLoc = 15844;
+	};
+	388E9F40132A240C0025B0B9 /* NSString.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSString.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h;
+		sourceTree = "<absolute>";
+	};
+	388E9F43132A240C0025B0B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ColorTrackingViewController.h */;
+		name = "ColorTrackingViewController.h: 41";
+		rLen = 0;
+		rLoc = 1102;
+		rType = 0;
+		vrLen = 1532;
+		vrLoc = 302;
+	};
+	BC3F7988125EC40400987A60 /* ColorTrackingGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {975, 559}}";
+			sepNavSelRange = "{251, 0}";
+			sepNavVisRange = "{205, 756}";
+		};
+	};
+	BC3F7989125EC40400987A60 /* ColorTrackingGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {975, 2951}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{4642, 673}";
+		};
+	};
+	BC3F7BCC1261013400987A60 /* ColorTrackingCamera.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {975, 442}}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{0, 880}";
+		};
+	};
+	BC3F7BCD1261013400987A60 /* ColorTrackingCamera.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 1586}}";
+			sepNavSelRange = "{2808, 0}";
+			sepNavVisRange = "{2330, 944}";
+		};
+	};
+	BC3F80D81262BD5400987A60 /* ThresholdShader.fsh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1615, 780}}";
+			sepNavSelRange = "{985, 0}";
+			sepNavVisRange = "{0, 987}";
+		};
+	};
+	BC3F80D91262BD5400987A60 /* ThresholdShader.vsh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1615, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 202}";
+		};
+	};
+	BC3F813A1262C8E100987A60 /* PositionShader.fsh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 624}}";
+			sepNavSelRange = "{146, 0}";
+			sepNavVisRange = "{0, 856}";
+		};
+	};
+}

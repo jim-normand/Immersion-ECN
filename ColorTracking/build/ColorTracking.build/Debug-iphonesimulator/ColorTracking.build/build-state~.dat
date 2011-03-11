@@ -1,0 +1,501 @@
+TColorTracking
+v7
+r0
+t321269254.735140
+cCheck dependencies
+cProcessInfoPlistFile /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/Info.plist ColorTracking-Info.plist
+cCpResource build/Debug-iphonesimulator/ColorTracking.app/DirectDisplayShader.fsh Shaders/DirectDisplayShader.fsh
+cCpResource build/Debug-iphonesimulator/ColorTracking.app/DirectDisplayShader.vsh Shaders/DirectDisplayShader.vsh
+cCpResource build/Debug-iphonesimulator/ColorTracking.app/ThresholdShader.fsh Shaders/ThresholdShader.fsh
+cCpResource build/Debug-iphonesimulator/ColorTracking.app/ThresholdShader.vsh Shaders/ThresholdShader.vsh
+cCpResource build/Debug-iphonesimulator/ColorTracking.app/PositionShader.fsh Shaders/PositionShader.fsh
+cCpResource build/Debug-iphonesimulator/ColorTracking.app/PositionShader.vsh Shaders/PositionShader.vsh
+cProcessPCH /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch.gch ColorTracking_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/main.o /Users/jim/Downloads/ColorTracking/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingAppDelegate.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingViewController.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingGLView.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingCamera.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004CC110B500000000000E44B0
+t1287721141
+s935088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004CC110A700000000000001F4
+t1287721127
+s500
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004CC110220000000000030DE0
+t1287720994
+s200160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC110BE00000000000092AA
+t1287721150
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC110BE00000000000026AA
+t1287721150
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.h
+c000000004D75EA620000000000000245
+t1299573346
+s581
+i<UIKit/UIKit.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m
+c000000004CC1A57E0000000000000FDE
+t1287759230
+s4062
+i"ColorTrackingAppDelegate.h"
+i"ColorTrackingViewController.h"
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h
+c000000004CC1A59F0000000000000370
+t1287759263
+s880
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreMedia/CoreMedia.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m
+c000000004CC1A5A60000000000000CCF
+t1287759270
+s3279
+i"ColorTrackingCamera.h"
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.h
+c000000004CC1A59300000000000003C1
+t1287759251
+s961
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m
+c000000004CC1A59A00000000000014C8
+t1287759258
+s5320
+i"ColorTrackingGLView.h"
+i<OpenGLES/EAGLDrawable.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h
+c000000004CC1A58C00000000000005F8
+t1287759244
+s1528
+i<UIKit/UIKit.h>
+i"ColorTrackingCamera.h"
+i"ColorTrackingGLView.h"
+
+N/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m
+c000000004CC1A5890000000000003EFB
+t1287759241
+s16123
+i"ColorTrackingViewController.h"
+
+N/Users/jim/Downloads/ColorTracking/ColorTracking_Prefix.pch
+c000000004CAE867400000000000000C3
+t1286506100
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.fsh
+c000000004CB2852C0000000000000090
+t1286767916
+s144
+
+N/Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.vsh
+c000000004CB2852700000000000000BA
+t1286767911
+s186
+
+N/Users/jim/Downloads/ColorTracking/Shaders/PositionShader.fsh
+c000000004CBB9B930000000000000466
+t1287363475
+s1126
+
+N/Users/jim/Downloads/ColorTracking/Shaders/PositionShader.vsh
+c000000004CBB9B0600000000000000CA
+t1287363334
+s202
+
+N/Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.fsh
+c000000004CBB9B4F0000000000000393
+t1287363407
+s915
+
+N/Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.vsh
+c000000004CBB894200000000000000CA
+t1287358786
+s202
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTracking.LinkFileList
+c000000004D75F68500000000000002D3
+t1299576453
+s723
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingAppDelegate.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingCamera.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingGLView.o
+t1299576454
+s49808
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingViewController.o
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/main.o
+t1299576454
+s6468
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app.dSYM
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/ColorTracking
+t2
+s0
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/DirectDisplayShader.fsh
+t1299576453
+s144
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/DirectDisplayShader.vsh
+t1299576453
+s186
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/Info.plist
+t1299576453
+s621
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/PkgInfo
+t1299576453
+s8
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/PositionShader.fsh
+t1299576453
+s1126
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/PositionShader.vsh
+t1299576453
+s202
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/ThresholdShader.fsh
+t1299576453
+s915
+
+N/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/ThresholdShader.vsh
+t1299576453
+s202
+
+N/Users/jim/Downloads/ColorTracking/main.m
+c000000004CC1A5AF00000000000001BC
+t1287759279
+s444
+i<UIKit/UIKit.h>
+
+N/var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch.gch
+t1299576454
+s15453392
+
+NColorTracking-Info.plist
+c000000004CB31D4F0000000000000387
+t1286806863
+s903
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321269253#321269253#0(0"0(0#1#0"8634475328#0"0#
+
+CCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingAppDelegate.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269254.525902
+e321269254.710116
+r0
+xCompileC
+xbuild/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingAppDelegate.o
+x/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h:12,
+o                 from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m:12:
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:17: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:19: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:20: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:21: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:22: error: expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:26: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+lSLF07#2@77"Compile /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m321269254#321269254#0(1067"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h:12,                 from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m:12:/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:17: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:19: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:20: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:21: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:22: error: expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:26: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'6(4@83"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'321269254#195#160#3(7@91"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m321269254#18446744073709551615#0#0(6@69"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m309452030#12#0#12#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@151"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#17#0#17#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#17#0#17#0#0"0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'321269254#355#146#3(7@91"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m321269254#18446744073709551615#0#0(6@69"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m309452030#12#0#12#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@137"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#19#0#19#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#19#0#19#0#19"expected * before *0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'321269254#501#136#3(7@91"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m321269254#18446744073709551615#0#0(6@69"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m309452030#12#0#12#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@127"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#20#0#20#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#20#0#20#0#19"expected * before *0(4@63"Expected specifier-qualifier-list before 'AVCaptureDeviceInput'321269254#637#140#3(7@91"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m321269254#18446744073709551615#0#0(6@69"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m309452030#12#0#12#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@131"Expected specifier-qualifier-list before 'AVCaptureDeviceInput' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#21#0#21#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#21#0#21#0#19"expected * before *0(4@67"Expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'321269254#777#144#3(7@91"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m321269254#18446744073709551615#0#0(6@69"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m309452030#12#0#12#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@135"Expected specifier-qualifier-list before 'AVCaptureVideoDataOutput' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#22#0#22#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#22#0#22#0#19"expected * before *0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'321269254#921#146#3(7@91"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m321269254#18446744073709551615#0#0(6@69"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m309452030#12#0#12#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@137"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#26#0#26#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#26#0#26#0#19"expected * before *0(0#0#69"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m8622109504#2144"    cd /Users/jim/Downloads/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/include -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources/i386 -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch -c /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingAppDelegate.m -o /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingAppDelegate.o1#
+
+CCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingCamera.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269254.630081
+e321269254.734958
+r0
+xCompileC
+xbuild/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingCamera.o
+x/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:11:
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:17: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:19: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:20: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:21: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:22: error: expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:26: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m: In function '-[ColorTrackingCamera init]':
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:25: error: 'AVCaptureDevice' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:25: error: (Each undeclared identifier is reported only once
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:25: error: for each function it appears in.)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:25: error: 'backFacingCamera' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:27: error: 'device' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:29: error: 'AVCaptureDevicePositionBack' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:33: error: selector element does not have a valid object type
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:36: error: 'captureSession' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:36: error: 'AVCaptureSession' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:40: error: 'videoInput' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:40: error: 'AVCaptureDeviceInput' undeclared (first use in this function)
+occ1obj: warnings being treated as errors
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:46: warning: 'ColorTrackingCamera' may not respond to '-videoPreviewLayer'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:46: warning: (Messages without a matching method signature
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:46: warning: will be assumed to return 'id' and accept
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:46: warning: '...' as arguments.)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:48: error: 'videoOutput' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:48: error: 'AVCaptureVideoDataOutput' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:69: error: 'AVCaptureSessionPreset640x480' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m: In function '-[ColorTrackingCamera dealloc]':
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:80: error: 'captureSession' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:83: error: 'videoPreviewLayer' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:84: error: 'videoOutput' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:85: error: 'videoInput' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m: At top level:
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:92: error: expected ')' before 'AVCaptureOutput'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:92: error: expected ')' before 'AVCaptureConnection'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:102: error: no declaration of property 'videoPreviewLayer' found in the interface
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:104: error: expected ')' before 'AVCaptureVideoPreviewLayer'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m: In function '-[ColorTrackingCamera videoPreviewLayer]':
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:106: error: 'videoPreviewLayer' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:108: error: 'AVCaptureVideoPreviewLayer' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:108: error: 'captureSession' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:112: error: 'AVCaptureVideoOrientationPortrait' undeclared (first use in this function)
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:119: warning: control reaches end of non-void function
+lSLF07#2@72"Compile /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m321269254#321269254#0(5493"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:11:/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:17: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:19: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:20: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:21: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:22: error: expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:26: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m: In function '-[ColorTrackingCamera init]':/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:25: error: 'AVCaptureDevice' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:25: error: (Each undeclared identifier is reported only once/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:25: error: for each function it appears in.)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:25: error: 'backFacingCamera' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:27: error: 'device' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:29: error: 'AVCaptureDevicePositionBack' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:33: error: selector element does not have a valid object type/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:36: error: 'captureSession' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:36: error: 'AVCaptureSession' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:40: error: 'videoInput' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:40: error: 'AVCaptureDeviceInput' undeclared (first use in this function)cc1obj: warnings being treated as errors/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:46: warning: 'ColorTrackingCamera' may not respond to '-videoPreviewLayer'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:46: warning: (Messages without a matching method signature/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:46: warning: will be assumed to return 'id' and accept/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:46: warning: '...' as arguments.)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:48: error: 'videoOutput' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:48: error: 'AVCaptureVideoDataOutput' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:69: error: 'AVCaptureSessionPreset640x480' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m: In function '-[ColorTrackingCamera dealloc]':/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:80: error: 'captureSession' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:83: error: 'videoPreviewLayer' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:84: error: 'videoOutput' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:85: error: 'videoInput' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m: At top level:/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:92: error: expected ')' before 'AVCaptureOutput'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:92: error: expected ')' before 'AVCaptureConnection'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:102: error: no declaration of property 'videoPreviewLayer' found in the interface/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:104: error: expected ')' before 'AVCaptureVideoPreviewLayer'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m: In function '-[ColorTrackingCamera videoPreviewLayer]':/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:106: error: 'videoPreviewLayer' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:108: error: 'AVCaptureVideoPreviewLayer' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:108: error: 'captureSession' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:112: error: 'AVCaptureVideoOrientationPortrait' undeclared (first use in this function)/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m:119: warning: control reaches end of non-void function34(4@83"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'321269254#91#160#2(7@86"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#11#0#11#0#0"0(13@151"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#17#0#17#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#17#0#17#0#0"0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'321269254#251#146#2(7@86"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#11#0#11#0#0"0(13@137"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#19#0#19#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#19#0#19#0#19"expected * before *0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'321269254#397#136#2(7@86"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#11#0#11#0#0"0(13@127"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#20#0#20#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#20#0#20#0#19"expected * before *0(4@63"Expected specifier-qualifier-list before 'AVCaptureDeviceInput'321269254#533#140#2(7@86"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#11#0#11#0#0"0(13@131"Expected specifier-qualifier-list before 'AVCaptureDeviceInput' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#21#0#21#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#21#0#21#0#19"expected * before *0(4@67"Expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'321269254#673#144#2(7@86"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#11#0#11#0#0"0(13@135"Expected specifier-qualifier-list before 'AVCaptureVideoDataOutput' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#22#0#22#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#22#0#22#0#19"expected * before *0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'321269254#817#146#2(7@86"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#11#0#11#0#0"0(13@137"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#26#0#26#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#26#0#26#0#19"expected * before *0(4@57"'AVCaptureDevice' undeclared (first use in this function)321269254#1072#134#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#25#0#25#0#43"'*' undeclared (first use in this function)0(4@58"'backFacingCamera' undeclared (first use in this function)321269254#1442#135#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#25#0#25#0#43"'*' undeclared (first use in this function)0(4@48"'device' undeclared (first use in this function)321269254#1577#125#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#27#0#27#0#43"'*' undeclared (first use in this function)0(4@69"'AVCaptureDevicePositionBack' undeclared (first use in this function)321269254#1702#146#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#29#0#29#0#43"'*' undeclared (first use in this function)0(4@50"Selector element does not have a valid object type321269254#1848#127#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#33#0#33#0#50"selector element does not have a valid object type0(4@56"'captureSession' undeclared (first use in this function)321269254#1975#133#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#36#0#36#0#43"'*' undeclared (first use in this function)0(4@58"'AVCaptureSession' undeclared (first use in this function)321269254#2108#135#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#36#0#36#0#43"'*' undeclared (first use in this function)0(4@52"'videoInput' undeclared (first use in this function)321269254#2243#129#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#40#0#40#0#43"'*' undeclared (first use in this function)0(4@62"'AVCaptureDeviceInput' undeclared (first use in this function)321269254#2372#139#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#40#0#40#0#43"'*' undeclared (first use in this function)0(4@61"'ColorTrackingCamera' may not respond to '-videoPreviewLayer'321269254#2552#140#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#46#0#46#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)321269254#2692#124#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#46#0#46#0#0"0(4@53"'videoOutput' undeclared (first use in this function)321269254#3035#130#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#48#0#48#0#43"'*' undeclared (first use in this function)0(4@66"'AVCaptureVideoDataOutput' undeclared (first use in this function)321269254#3165#143#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#48#0#48#0#43"'*' undeclared (first use in this function)0(4@71"'AVCaptureSessionPreset640x480' undeclared (first use in this function)321269254#3308#148#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#69#0#69#0#43"'*' undeclared (first use in this function)0(4@56"'captureSession' undeclared (first use in this function)321269254#3568#133#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#80#0#80#0#43"'*' undeclared (first use in this function)0(4@59"'videoPreviewLayer' undeclared (first use in this function)321269254#3701#136#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#83#0#83#0#43"'*' undeclared (first use in this function)0(4@53"'videoOutput' undeclared (first use in this function)321269254#3837#130#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#84#0#84#0#43"'*' undeclared (first use in this function)0(4@52"'videoInput' undeclared (first use in this function)321269254#3967#129#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#85#0#85#0#43"'*' undeclared (first use in this function)0(23@13"At top level:321269254#4096#80#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#0#0#0#0#0"0(4@37"Expected ')' before 'AVCaptureOutput'321269254#4176#114#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#92#0#92#0#19"expected * before *0(4@41"Expected ')' before 'AVCaptureConnection'321269254#4290#118#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#92#0#92#0#19"expected * before *0(4@69"No declaration of property 'videoPreviewLayer' found in the interface321269254#4408#147#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#102#0#102#0#0"0(4@48"Expected ')' before 'AVCaptureVideoPreviewLayer'321269254#4555#126#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#104#0#104#0#19"expected * before *0(4@59"'videoPreviewLayer' undeclared (first use in this function)321269254#4803#137#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#106#0#106#0#43"'*' undeclared (first use in this function)0(4@68"'AVCaptureVideoPreviewLayer' undeclared (first use in this function)321269254#4940#146#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#108#0#108#0#43"'*' undeclared (first use in this function)0(4@56"'captureSession' undeclared (first use in this function)321269254#5086#134#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#108#0#108#0#43"'*' undeclared (first use in this function)0(4@75"'AVCaptureVideoOrientationPortrait' undeclared (first use in this function)321269254#5220#153#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#112#0#112#0#43"'*' undeclared (first use in this function)0(4@40"Control reaches end of non-void function321269254#5373#120#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m309452070#119#0#119#0#40"control reaches end of non-void function0(0#0#64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m8650903136#2134"    cd /Users/jim/Downloads/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/include -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources/i386 -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch -c /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.m -o /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingCamera.o1#
+
+CCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingGLView.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269254.542208
+e321269254.709503
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingGLView.o
+x/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m321269254#321269254#0(0"0(0#0#64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m8629596672#2134"    cd /Users/jim/Downloads/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/include -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources/i386 -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch -c /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingGLView.m -o /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingGLView.o0#
+
+CCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingViewController.o /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269254.541006
+e321269254.716593
+r0
+xCompileC
+xbuild/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingViewController.o
+x/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h:12,
+o                 from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m:11:
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:17: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:19: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:20: error: expected specifier-qualifier-list before 'AVCaptureSession'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:21: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:22: error: expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'
+o/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:26: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'
+lSLF07#2@80"Compile /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m321269254#321269254#0(1070"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h:12,                 from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m:11:/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:17: error: cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:19: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:20: error: expected specifier-qualifier-list before 'AVCaptureSession'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:21: error: expected specifier-qualifier-list before 'AVCaptureDeviceInput'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:22: error: expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h:26: error: expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'6(4@83"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate'321269254#198#160#3(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m309452041#11#0#11#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@151"Cannot find protocol declaration for 'AVCaptureVideoDataOutputSampleBufferDelegate' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#17#0#17#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#17#0#17#0#0"0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'321269254#358#146#3(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m309452041#11#0#11#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@137"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#19#0#19#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#19#0#19#0#19"expected * before *0(4@59"Expected specifier-qualifier-list before 'AVCaptureSession'321269254#504#136#3(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m309452041#11#0#11#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@127"Expected specifier-qualifier-list before 'AVCaptureSession' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#20#0#20#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#20#0#20#0#19"expected * before *0(4@63"Expected specifier-qualifier-list before 'AVCaptureDeviceInput'321269254#640#140#3(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m309452041#11#0#11#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@131"Expected specifier-qualifier-list before 'AVCaptureDeviceInput' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#21#0#21#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#21#0#21#0#19"expected * before *0(4@67"Expected specifier-qualifier-list before 'AVCaptureVideoDataOutput'321269254#780#144#3(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m309452041#11#0#11#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@135"Expected specifier-qualifier-list before 'AVCaptureVideoDataOutput' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#22#0#22#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#22#0#22#0#19"expected * before *0(4@69"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer'321269254#924#146#3(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m309452041#11#0#11#0#0"0(7@94"In file included from /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h321269254#18446744073709551615#0#0(6@72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.h309452044#12#0#12#0#0"0(13@137"Expected specifier-qualifier-list before 'AVCaptureVideoPreviewLayer' in /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h321269254#18446744073709551615#0#0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#26#0#26#0#0"0(6@64"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingCamera.h309452063#26#0#26#0#19"expected * before *0(0#0#72"/Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m8632447232#2150"    cd /Users/jim/Downloads/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/include -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources/i386 -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch -c /Users/jim/Downloads/ColorTracking/Classes/ColorTrackingViewController.m -o /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/ColorTrackingViewController.o1#
+
+CCompileC build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/main.o /Users/jim/Downloads/ColorTracking/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269254.524952
+e321269254.629953
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/main.o
+x/Users/jim/Downloads/ColorTracking/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jim/Downloads/ColorTracking/main.m321269254#321269254#0(0"0(0#0#41"/Users/jim/Downloads/ColorTracking/main.m8632904096#2096"    cd /Users/jim/Downloads/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/include -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources/i386 -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources -include /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch -c /Users/jim/Downloads/ColorTracking/main.m -o /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/Objects-normal/i386/main.o0#
+
+CCpResource build/Debug-iphonesimulator/ColorTracking.app/DirectDisplayShader.fsh Shaders/DirectDisplayShader.fsh
+s321269253.394127
+e321269253.444553
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ColorTracking.app/DirectDisplayShader.fsh
+xShaders/DirectDisplayShader.fsh
+lSLF07#2@36"Copy Shaders/DirectDisplayShader.fsh321269253#321269253#0(0"0(0#0#66"/Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.fsh8632573632#483"    cd /Users/jim/Downloads/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.fsh /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app0#
+
+CCpResource build/Debug-iphonesimulator/ColorTracking.app/DirectDisplayShader.vsh Shaders/DirectDisplayShader.vsh
+s321269253.424854
+e321269253.444318
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ColorTracking.app/DirectDisplayShader.vsh
+xShaders/DirectDisplayShader.vsh
+lSLF07#2@36"Copy Shaders/DirectDisplayShader.vsh321269253#321269253#0(0"0(0#0#66"/Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.vsh8649423840#483"    cd /Users/jim/Downloads/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Downloads/ColorTracking/Shaders/DirectDisplayShader.vsh /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app0#
+
+CCpResource build/Debug-iphonesimulator/ColorTracking.app/PositionShader.fsh Shaders/PositionShader.fsh
+s321269253.427041
+e321269253.445319
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ColorTracking.app/PositionShader.fsh
+xShaders/PositionShader.fsh
+lSLF07#2@31"Copy Shaders/PositionShader.fsh321269253#321269253#0(0"0(0#0#61"/Users/jim/Downloads/ColorTracking/Shaders/PositionShader.fsh8638539264#478"    cd /Users/jim/Downloads/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Downloads/ColorTracking/Shaders/PositionShader.fsh /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app0#
+
+CCpResource build/Debug-iphonesimulator/ColorTracking.app/PositionShader.vsh Shaders/PositionShader.vsh
+s321269253.427809
+e321269253.444832
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ColorTracking.app/PositionShader.vsh
+xShaders/PositionShader.vsh
+lSLF07#2@31"Copy Shaders/PositionShader.vsh321269253#321269253#0(0"0(0#0#61"/Users/jim/Downloads/ColorTracking/Shaders/PositionShader.vsh8636946080#478"    cd /Users/jim/Downloads/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Downloads/ColorTracking/Shaders/PositionShader.vsh /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app0#
+
+CCpResource build/Debug-iphonesimulator/ColorTracking.app/ThresholdShader.fsh Shaders/ThresholdShader.fsh
+s321269253.425542
+e321269253.445073
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ColorTracking.app/ThresholdShader.fsh
+xShaders/ThresholdShader.fsh
+lSLF07#2@32"Copy Shaders/ThresholdShader.fsh321269253#321269253#0(0"0(0#0#62"/Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.fsh8646291552#479"    cd /Users/jim/Downloads/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.fsh /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app0#
+
+CCpResource build/Debug-iphonesimulator/ColorTracking.app/ThresholdShader.vsh Shaders/ThresholdShader.vsh
+s321269253.426294
+e321269253.445218
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ColorTracking.app/ThresholdShader.vsh
+xShaders/ThresholdShader.vsh
+lSLF07#2@32"Copy Shaders/ThresholdShader.vsh321269253#321269253#0(0"0(0#0#62"/Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.vsh8640518816#479"    cd /Users/jim/Downloads/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jim/Downloads/ColorTracking/Shaders/ThresholdShader.vsh /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app0#
+
+CGenerateDSYMFile /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app.dSYM /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/ColorTracking
+r0
+
+CLd /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/ColorTracking normal i386
+r0
+
+CProcessInfoPlistFile /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/Info.plist ColorTracking-Info.plist
+s321269253.390859
+e321269253.394009
+r1
+xProcessInfoPlistFile
+x/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/Info.plist
+xColorTracking-Info.plist
+lSLF07#2@32"Process ColorTracking-Info.plist321269253#321269253#0(0"0(0#0#59"/Users/jim/Downloads/ColorTracking/ColorTracking-Info.plist8633818208#485"    cd /Users/jim/Downloads/ColorTracking    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ColorTracking-Info.plist -genpkginfo /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app/Info.plist0#
+
+CProcessPCH /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch.gch ColorTracking_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269253.445395
+e321269254.524833
+r1
+xProcessPCH
+x/var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch.gch
+xColorTracking_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile ColorTracking_Prefix.pch321269253#321269254#0(0"0(0#0#59"/Users/jim/Downloads/ColorTracking/ColorTracking_Prefix.pch8634099552#1986"    cd /Users/jim/Downloads/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Werror -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/ColorTracking-project-headers.hmap -F/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks -I/Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/include -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources/i386 -I/Users/jim/Downloads/ColorTracking/build/ColorTracking.build/Debug-iphonesimulator/ColorTracking.build/DerivedSources -c /Users/jim/Downloads/ColorTracking/ColorTracking_Prefix.pch -o /var/folders/Gb/GbOH-d2UEvKSsIEFD-k2vU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gtrwlityudkllygekhhoomehswnj/ColorTracking_Prefix.pch.gch0#
+
+CTouch /Users/jim/Downloads/ColorTracking/build/Debug-iphonesimulator/ColorTracking.app
+r0
+
